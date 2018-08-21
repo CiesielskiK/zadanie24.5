@@ -1,24 +1,14 @@
 {
-  "name": "zadanie24.5",
+  "name": "ski-jumping-calc",
   "version": "1.0.0",
-  "description": "24 - Testy jednostkowe<br>\r 24.5 - Testy jednostkowe w praktyce<br>\r Zadanie: Piszemy kod wraz z testami",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test": "mocha index.test.js",
-    "test:watch": "mocha -w index.test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CiesielskiK/zadanie24.5.git"
+    "test": "mocha *.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CiesielskiK/zadanie24.5/issues"
-  },
-  "homepage": "https://github.com/CiesielskiK/zadanie24.5#readme",
   "dependencies": {
     "mocha": "^5.1.1"
   }
